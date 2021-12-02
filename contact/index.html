@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Introduction page</title>
+        <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+
+    <body>
+        <header class="fixed-bar">
+            <h1 class="page-title">Mike's World</h1>
+        </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="../index.html">Home</a></li>
+                <li><a title="Current page">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form class="form">
+                <label for="input-name">Name</label>
+                <input type="text" name="name" class="form-input" id="input-name">
+                <label for="input-mail">Mail</label>
+                <input type="email" name="email" class="form-input" id="input-mail">
+                <label for="input-message">Your message</label>
+                <textarea name="message" cols="30" rows="10" class="form-input" id="input-message"></textarea>
+                <button type="submit" class="submit-button" disabled>Submit</button>
+            </form>
+        </main>
+        <script src="scripts/main.js"></script>
+    </body>
+
+</html>
